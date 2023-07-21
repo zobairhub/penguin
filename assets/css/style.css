@@ -1,0 +1,50 @@
+/* google fonts family */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* shared style start */
+
+:root{
+  /* font family */
+    --font-roboto: 'Roboto', sans-serif;
+    --font-bebas-neue: 'Bebas Neue', sans-serif;
+}
+
+/* card buttons */
+.shopping-button{
+  border-radius: 10px;
+  background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+  font-family: var(--font-roboto);
+  /* font-size: 1rem; */
+}
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.font-bebas-neue{
+  font-family: 'Bebas Neue', sans-serif;
+}
+.card-shadow{
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+
+
+/* shared style start */
+
+
+
+
+*{
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
